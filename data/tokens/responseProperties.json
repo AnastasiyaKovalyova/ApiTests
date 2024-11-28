@@ -1,0 +1,11 @@
+{
+  "tokens": {
+    "chainId": "chainId",
+    "address": "address",
+    "symbol": "symbol",
+    "name": "name",
+    "priceUSD": "priceUSD",
+    "coinKey": "coinKey",
+    "logoURI": "logoURI"
+  }
+}

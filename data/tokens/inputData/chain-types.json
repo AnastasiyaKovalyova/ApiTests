@@ -1,0 +1,8 @@
+{
+  "supported": ["EVM", "SVM", "UTXO"],
+  "caseSensitive": ["evm", "SvM"],
+  "notSupportedMultiple": ["INVALID", "BLOCKCHAIN_X", "IBC"],
+  "notSupportedSingle": ["INVALID"],
+  "notSupportedMixValidAndInvalid": ["INVALID", "EVM"],
+  "duplicated": ["EVM", "SVM", "UTXO"]
+}

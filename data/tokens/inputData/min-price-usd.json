@@ -1,0 +1,10 @@
+{
+  "validMinPriceUSD": [0.01, 1, 100],
+  "invalidMinPriceUSD": [
+    -1,
+    "not_a_number",
+    0.0000000000000001,
+    null,
+    99999999999999999999999
+  ]
+}

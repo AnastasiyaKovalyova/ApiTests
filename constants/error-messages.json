@@ -1,0 +1,8 @@
+{
+    "ErrorMessageChains": "must be equal to one of the allowed values",
+    "ErrorMessageChainTypes": "/chainTypes/0 must be equal to one of the allowed values",
+    "ErrorMessageMinPriceUsd": "/minPriceUSD must be number",
+    "Unauthorized": "Unauthorized",
+    "notFound": "Not Found",
+    "RateLimited": "Rate limit exceeded, retry in 2 hours"
+}

@@ -1,0 +1,61 @@
+{
+  "supported": {
+    "BTC": 20000000000001,
+    "ETH": 1,
+    "ARB": 42161,
+    "OPT": 10,
+    "SOL": 1151111081099710,
+    "POL": 137,
+    "BAS": 8453,
+    "BSC": 56,
+    "ERA": 324,
+    "LNA": 59144,
+    "DAI": 100,
+    "AVA": 43114,
+    "FTM": 250,
+    "PZE": 1101,
+    "FUS": 122,
+    "BOB": 288,
+    "MOO": 1284,
+    "MOR": 1285,
+    "AUR": 1313161554,
+    "MAM": 1088,
+    "SCL": 534352,
+    "MOD": 34443,
+    "MNT": 5000,
+    "RSK": 30,
+    "BLS": 81457,
+    "CEL": 42220,
+    "FRA": 252,
+    "TAI": 167000,
+    "GRA": 1625,
+    "SEI": 1329,
+    "IMX": 13371
+  },
+  "someSopported": {
+    "DAI": 100
+  },
+  "duplicated": {
+    "ETH": 1,
+    "ETH": 1
+  },
+  "notSupportedMultiple": {
+    "TTTT": 4444,
+    "OKT": 66,
+    "ONE": 1666600000,
+    "VEL": 106
+  },
+  "notSupportedSingle": {
+    "VEL": 106
+  },
+  "mixSupportedAndNotSupported": {
+    "IMX": 13371,
+    "ONE": 1666600000
+  },
+  "sqlInjection": {
+    "INJECTION": "DROP TABLE tokens;"
+  },
+  "XssInjection": {
+    "INJECTION": "<script>alert(1)</script>"
+  }
+}

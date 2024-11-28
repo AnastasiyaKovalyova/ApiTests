@@ -1,0 +1,10 @@
+{
+  "requiredTokenProperties": [
+    "chainId",
+    "address",
+    "symbol",
+    "name",
+    "decimals"
+  ],
+  "nonRequiredTokenProperties": ["coinKey", "logoURI", "priceUSD"]
+}
